@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Abp.MES</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abp.MES.Domain\Abp.MES.Domain.csproj" />
+    <ProjectReference Include="..\Abp.MES.Application.Contracts\Abp.MES.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="9.2.1" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="9.2.1" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="9.2.1" />
+    <PackageReference Include="Volo.Abp.Account.Application" Version="9.2.1" />
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="9.2.1" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="9.2.1" />
+  </ItemGroup>
+
+</Project>
