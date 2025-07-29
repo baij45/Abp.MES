@@ -38,7 +38,7 @@
     "SeeAllUsers": "查看所有用户",
     "TakePhoto": "拍摄照片",
     "ChoosePhoto": "选择照片",
-    "BookStore:00001": "There is already an author with the same name: {name}",
+    "MES:00001": "There is already an author with the same name: {name}",
     "Permission:Authors": "Author Management",
     "Permission:Authors.Create": "Creating new authors",
     "Permission:Authors.Edit": "Editing the authors",
